@@ -1,5 +1,7 @@
 # Synapse - Your Second Brain
 
+*incase you are not able to redirect to the webapp repo : https://github.com/ShubhMehrotra19/appointy_taskround*
+
 A web application and browser extension that helps you capture and organize web content with AI-powered categorization.
 
 ## Features
