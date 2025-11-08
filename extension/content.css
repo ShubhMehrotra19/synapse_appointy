@@ -1,0 +1,10 @@
+/* Content script styles for Synapse extension */
+
+#synapse-overlay {
+  cursor: crosshair;
+}
+
+#synapse-highlight {
+  transition: all 0.1s ease;
+}
+
