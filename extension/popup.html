@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Synapse</title>
   <link rel="stylesheet" href="popup.css">
 </head>
+
 <body>
   <div class="container">
     <div class="header">
@@ -14,16 +16,16 @@
         <span id="status-text">Checking...</span>
       </div>
     </div>
-    
+
     <div id="login-section" class="section hidden">
       <p>Please log in to your Synapse account to use this extension.</p>
       <button id="open-login" class="btn btn-primary">Open Synapse</button>
       <button id="sync-auth" class="btn btn-secondary" style="margin-top: 8px;">Sync from Open Tab</button>
     </div>
-    
+
     <div id="main-section" class="section hidden">
       <button id="capture-btn" class="btn btn-primary btn-large">
-        <span class="icon">🧠</span>
+        <span class="icon">📸</span>
         Capture Page
       </button>
       <div id="status-message" class="status-message"></div>
@@ -31,5 +33,5 @@
   </div>
   <script src="popup.js"></script>
 </body>
-</html>
 
+</html>
